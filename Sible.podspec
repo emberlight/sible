@@ -7,9 +7,9 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT' }
   s.authors      = { 'Emberlight' => 'kevinr@emberlight.co' }
   s.source       = { :git => "https://github.com/emberlight/sible.git", :branch => "0.1.0" }
-  s.public_header_files = "Sible.h"
-  s.source_files       = 'Sible.h'
-  s.preserve_paths = "libSible.a"
-	s.ios.vendored_library = "libSible.a"
+  s.public_header_files = "release/Sible.h"
+  s.source_files       = 'release/Sible.h'
+  s.preserve_paths = "release/libSible.a"
+	s.ios.vendored_library = "release/libSible.a"
   s.requires_arc = true
 end
