@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A14632B1A88EBC200F2E954 /* libSible.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A14631F1A88EBC200F2E954 /* libSible.a */; };
+		0A1463471A88EC3F00F2E954 /* Sible.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A14633A1A88EC3F00F2E954 /* Sible.m */; };
+		0A1463481A88EC3F00F2E954 /* PeripheralScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A14633C1A88EC3F00F2E954 /* PeripheralScanner.m */; };
+		0A1463491A88EC3F00F2E954 /* PeripheralScan.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A14633D1A88EC3F00F2E954 /* PeripheralScan.m */; };
+		0A14634A1A88EC3F00F2E954 /* SibleOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A14633E1A88EC3F00F2E954 /* SibleOperation.m */; };
+		0A14634B1A88EC3F00F2E954 /* SibleWriteOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A14633F1A88EC3F00F2E954 /* SibleWriteOperation.m */; };
+		0A14634C1A88EC3F00F2E954 /* SibleReadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1463401A88EC3F00F2E954 /* SibleReadOperation.m */; };
+		0A14634D1A88EC3F00F2E954 /* SibleTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1463411A88EC3F00F2E954 /* SibleTransaction.m */; };
+		0A14634E1A88EC3F00F2E954 /* SiblePeripheralTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1463421A88EC3F00F2E954 /* SiblePeripheralTransaction.m */; };
+		0A14634F1A88EC3F00F2E954 /* SibleCentral.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1463441A88EC3F00F2E954 /* SibleCentral.m */; };
+		0A1463501A88EC3F00F2E954 /* SibleTransactionState.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1463461A88EC3F00F2E954 /* SibleTransactionState.m */; };
+		0A1463541A88EC5300F2E954 /* ArrayQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1463531A88EC5300F2E954 /* ArrayQueue.m */; };
+		0A1463551A88ECB200F2E954 /* Sible.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0A1463391A88EC3F00F2E954 /* Sible.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A14632C1A88EBC200F2E954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A1463171A88EBC200F2E954 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A14631E1A88EBC200F2E954;
+			remoteInfo = Sible;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0A14631D1A88EBC200F2E954 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				0A1463551A88ECB200F2E954 /* Sible.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A14631F1A88EBC200F2E954 /* libSible.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSible.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A14632A1A88EBC200F2E954 /* SibleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SibleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A1463301A88EBC200F2E954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A1463391A88EC3F00F2E954 /* Sible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sible.h; sourceTree = "<group>"; };
+		0A14633A1A88EC3F00F2E954 /* Sible.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sible.m; sourceTree = "<group>"; };
+		0A14633B1A88EC3F00F2E954 /* PeripheralScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeripheralScanner.h; sourceTree = "<group>"; };
+		0A14633C1A88EC3F00F2E954 /* PeripheralScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeripheralScanner.m; sourceTree = "<group>"; };
+		0A14633D1A88EC3F00F2E954 /* PeripheralScan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeripheralScan.m; sourceTree = "<group>"; };
+		0A14633E1A88EC3F00F2E954 /* SibleOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SibleOperation.m; sourceTree = "<group>"; };
+		0A14633F1A88EC3F00F2E954 /* SibleWriteOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SibleWriteOperation.m; sourceTree = "<group>"; };
+		0A1463401A88EC3F00F2E954 /* SibleReadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SibleReadOperation.m; sourceTree = "<group>"; };
+		0A1463411A88EC3F00F2E954 /* SibleTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SibleTransaction.m; sourceTree = "<group>"; };
+		0A1463421A88EC3F00F2E954 /* SiblePeripheralTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiblePeripheralTransaction.m; sourceTree = "<group>"; };
+		0A1463431A88EC3F00F2E954 /* SibleCentral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SibleCentral.h; sourceTree = "<group>"; };
+		0A1463441A88EC3F00F2E954 /* SibleCentral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SibleCentral.m; sourceTree = "<group>"; };
+		0A1463451A88EC3F00F2E954 /* SibleTransactionState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SibleTransactionState.h; sourceTree = "<group>"; };
+		0A1463461A88EC3F00F2E954 /* SibleTransactionState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SibleTransactionState.m; sourceTree = "<group>"; };
+		0A1463521A88EC5300F2E954 /* ArrayQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayQueue.h; sourceTree = "<group>"; };
+		0A1463531A88EC5300F2E954 /* ArrayQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayQueue.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A14631C1A88EBC200F2E954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A1463271A88EBC200F2E954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A14632B1A88EBC200F2E954 /* libSible.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A1463161A88EBC200F2E954 = {
+			isa = PBXGroup;
+			children = (
+				0A1463211A88EBC200F2E954 /* Sible */,
+				0A14632E1A88EBC200F2E954 /* SibleTests */,
+				0A1463201A88EBC200F2E954 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A1463201A88EBC200F2E954 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A14631F1A88EBC200F2E954 /* libSible.a */,
+				0A14632A1A88EBC200F2E954 /* SibleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A1463211A88EBC200F2E954 /* Sible */ = {
+			isa = PBXGroup;
+			children = (
+				0A1463511A88EC4800F2E954 /* util */,
+				0A1463391A88EC3F00F2E954 /* Sible.h */,
+				0A14633A1A88EC3F00F2E954 /* Sible.m */,
+				0A14633B1A88EC3F00F2E954 /* PeripheralScanner.h */,
+				0A14633C1A88EC3F00F2E954 /* PeripheralScanner.m */,
+				0A14633D1A88EC3F00F2E954 /* PeripheralScan.m */,
+				0A14633E1A88EC3F00F2E954 /* SibleOperation.m */,
+				0A14633F1A88EC3F00F2E954 /* SibleWriteOperation.m */,
+				0A1463401A88EC3F00F2E954 /* SibleReadOperation.m */,
+				0A1463411A88EC3F00F2E954 /* SibleTransaction.m */,
+				0A1463421A88EC3F00F2E954 /* SiblePeripheralTransaction.m */,
+				0A1463431A88EC3F00F2E954 /* SibleCentral.h */,
+				0A1463441A88EC3F00F2E954 /* SibleCentral.m */,
+				0A1463451A88EC3F00F2E954 /* SibleTransactionState.h */,
+				0A1463461A88EC3F00F2E954 /* SibleTransactionState.m */,
+			);
+			path = Sible;
+			sourceTree = "<group>";
+		};
+		0A14632E1A88EBC200F2E954 /* SibleTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A14632F1A88EBC200F2E954 /* Supporting Files */,
+			);
+			path = SibleTests;
+			sourceTree = "<group>";
+		};
+		0A14632F1A88EBC200F2E954 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A1463301A88EBC200F2E954 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A1463511A88EC4800F2E954 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				0A1463521A88EC5300F2E954 /* ArrayQueue.h */,
+				0A1463531A88EC5300F2E954 /* ArrayQueue.m */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A14631E1A88EBC200F2E954 /* Sible */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A1463331A88EBC200F2E954 /* Build configuration list for PBXNativeTarget "Sible" */;
+			buildPhases = (
+				0A14631B1A88EBC200F2E954 /* Sources */,
+				0A14631C1A88EBC200F2E954 /* Frameworks */,
+				0A14631D1A88EBC200F2E954 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sible;
+			productName = Sible;
+			productReference = 0A14631F1A88EBC200F2E954 /* libSible.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0A1463291A88EBC200F2E954 /* SibleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A1463361A88EBC200F2E954 /* Build configuration list for PBXNativeTarget "SibleTests" */;
+			buildPhases = (
+				0A1463261A88EBC200F2E954 /* Sources */,
+				0A1463271A88EBC200F2E954 /* Frameworks */,
+				0A1463281A88EBC200F2E954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A14632D1A88EBC200F2E954 /* PBXTargetDependency */,
+			);
+			name = SibleTests;
+			productName = SibleTests;
+			productReference = 0A14632A1A88EBC200F2E954 /* SibleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A1463171A88EBC200F2E954 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = emberlight;
+				TargetAttributes = {
+					0A14631E1A88EBC200F2E954 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					0A1463291A88EBC200F2E954 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 0A14631A1A88EBC200F2E954 /* Build configuration list for PBXProject "Sible" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A1463161A88EBC200F2E954;
+			productRefGroup = 0A1463201A88EBC200F2E954 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A14631E1A88EBC200F2E954 /* Sible */,
+				0A1463291A88EBC200F2E954 /* SibleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A1463281A88EBC200F2E954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A14631B1A88EBC200F2E954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1463501A88EC3F00F2E954 /* SibleTransactionState.m in Sources */,
+				0A14634E1A88EC3F00F2E954 /* SiblePeripheralTransaction.m in Sources */,
+				0A14634D1A88EC3F00F2E954 /* SibleTransaction.m in Sources */,
+				0A14634B1A88EC3F00F2E954 /* SibleWriteOperation.m in Sources */,
+				0A1463491A88EC3F00F2E954 /* PeripheralScan.m in Sources */,
+				0A1463481A88EC3F00F2E954 /* PeripheralScanner.m in Sources */,
+				0A14634F1A88EC3F00F2E954 /* SibleCentral.m in Sources */,
+				0A14634C1A88EC3F00F2E954 /* SibleReadOperation.m in Sources */,
+				0A1463541A88EC5300F2E954 /* ArrayQueue.m in Sources */,
+				0A1463471A88EC3F00F2E954 /* Sible.m in Sources */,
+				0A14634A1A88EC3F00F2E954 /* SibleOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A1463261A88EBC200F2E954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A14632D1A88EBC200F2E954 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A14631E1A88EBC200F2E954 /* Sible */;
+			targetProxy = 0A14632C1A88EBC200F2E954 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A1463311A88EBC200F2E954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A1463321A88EBC200F2E954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A1463341A88EBC200F2E954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0A1463351A88EBC200F2E954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0A1463371A88EBC200F2E954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SibleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A1463381A88EBC200F2E954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SibleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A14631A1A88EBC200F2E954 /* Build configuration list for PBXProject "Sible" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A1463311A88EBC200F2E954 /* Debug */,
+				0A1463321A88EBC200F2E954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A1463331A88EBC200F2E954 /* Build configuration list for PBXNativeTarget "Sible" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A1463341A88EBC200F2E954 /* Debug */,
+				0A1463351A88EBC200F2E954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A1463361A88EBC200F2E954 /* Build configuration list for PBXNativeTarget "SibleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A1463371A88EBC200F2E954 /* Debug */,
+				0A1463381A88EBC200F2E954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A1463171A88EBC200F2E954 /* Project object */;
+}
