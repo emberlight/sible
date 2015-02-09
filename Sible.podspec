@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.license      = { :type => 'MIT' }
   s.authors      = { 'Emberlight' => 'kevinr@emberlight.co' }
-  s.source       = { :http => "https://github.com/emberlight/sible.git" }
+  s.source       = { :git => "https://github.com/emberlight/sible.git", :branch => "0.1.0" }
   s.public_header_files = "Sible.h"
   s.preserve_paths = "libSible.a"
 	s.ios.vendored_library = "libSible.a"
