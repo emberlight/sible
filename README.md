@@ -10,7 +10,7 @@ Quick start
 -------
 
 1. Install [CocoaPods](http://cocoapods.org/) with `gem install cocoapods`.
-2. Create a file in your XCode project called `Podfile` and add the following line:
+2. Create a file in your Xcode project called `Podfile` and add the following line:
 
   ```ruby
   pod 'Sible'
